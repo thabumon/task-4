@@ -1,0 +1,36 @@
+h2{
+    font-size:100px;
+	color:#c1e7e1;
+    animation:heading 12s linear infinite;
+}
+
+img{
+    display:block;
+    width:25%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+button{
+    display:block;
+    width:auto;
+    font-size:150px;
+    border:none;
+    outline:none;
+    background-color:#99badd;
+    color:white;
+    cursor:pointer;
+    padding:170 px;
+    margin:auto;
+    transition:0.5s;
+    
+}
+
+button:active{
+    transform:scale(0.9);
+}
+
+@keyframes heading{
+    0%{transform:translateX(-350px);}
+    100%{transform:translateX(100%);}
+}
